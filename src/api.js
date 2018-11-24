@@ -1,4 +1,4 @@
 const {runServer} = require('./utils')
-const label = 'server'
-const port = 5000
+const label = 'api'
+const port = 7600
 runServer(label, port)
