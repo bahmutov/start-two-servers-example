@@ -1,7 +1,7 @@
 const runServer = (label, port = 9000) => {
   const http = require('http');
   const server = http.createServer((req, res) => {
-    console.log(req.method)
+    // console.log(req.method)
     if (req.method === 'GET') {
       console.log('%s received GET request to %s', label, req.url)
       res.end('all good\n\n')

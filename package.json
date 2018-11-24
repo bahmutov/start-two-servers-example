@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node src/test",
     "start:api": "node src/api",
-    "start:server": "node src/server"
+    "start:server": "node src/server",
+    "test:server": "start-test start:server 5000 test"
   },
   "keywords": [],
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com> (https://glebbahmutov.com/)",
   "license": "ISC",
   "devDependencies": {
+    "got": "9.3.2",
     "start-server-and-test": "1.7.10"
   }
 }
