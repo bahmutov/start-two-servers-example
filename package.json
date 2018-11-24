@@ -1,0 +1,16 @@
+{
+  "name": "start-two-servers-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server": "node src/server"
+  },
+  "keywords": [],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com> (https://glebbahmutov.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "start-server-and-test": "1.7.10"
+  }
+}
