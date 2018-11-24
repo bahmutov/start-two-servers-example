@@ -1,7 +1,7 @@
 {
   "name": "start-two-servers-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example using `start-server-and-test` to start two servers before testing",
   "main": "index.js",
   "scripts": {
     "test": "node src/test",
