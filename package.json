@@ -8,13 +8,13 @@
     "start:api": "node src/api",
     "start:server": "node src/server",
     "start:server-and-api": "start-test start:api 7600 start:server",
-    "test:all": "start-test start:server-and-api 5000 test"
+    "test:all": "start-test start:api 7600 start:server 5000 test"
   },
   "keywords": [],
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com> (https://glebbahmutov.com/)",
   "license": "ISC",
   "devDependencies": {
     "got": "9.3.2",
-    "start-server-and-test": "1.7.10"
+    "start-server-and-test": "1.11.0"
   }
 }
